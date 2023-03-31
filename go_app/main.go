@@ -24,6 +24,7 @@ func main() {
 
 	// Round area
 	roundedArea := fmt.Sprintf("%.2f", area)
+	
 	// Output result
 	fmt.Println("The area of the icosagon is: ", roundedArea, "cm²")
 
