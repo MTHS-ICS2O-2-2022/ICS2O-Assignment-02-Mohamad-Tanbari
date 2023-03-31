@@ -13,7 +13,7 @@ import (
 func main() {
 	// declare variables
 	var sideLength float64
-	sides := 20
+	var sides float64 = 20
 
 	// get user input
 	fmt.Println("Enter the length of the side of the icosagon: ")
@@ -25,5 +25,5 @@ func main() {
 	// Output result
 	fmt.Println("The area of the icosagon is: ", area, "cm²")
 
-	fmt.Println("Done.")
+	fmt.Println("\nDone.")
 }
