@@ -22,8 +22,10 @@ func main() {
 	// calculate area
 	area := (float64(sides) * math.Pow(sideLength, 2)) / (4 * math.Tan(math.Pi/float64(sides)))
 
+	// Round area
+	roundedArea := fmt.Sprintf("%.2f", area)
 	// Output result
-	fmt.Println("The area of the icosagon is: ", area, "cm²")
+	fmt.Println("The area of the icosagon is: ", roundedArea, "cm²")
 
 	fmt.Println("\nDone.")
 }

@@ -24,5 +24,5 @@ function calculate () {
   const area = (20 * sideLength * apothemLength) / 2;
 
   // Output the area of an icosagon
-  document.getElementById("answer").innerHTML = "Area of the icsoagon is " + area + " cm²"
+  document.getElementById("answer").innerHTML = "Area of the icsoagon is " + area.toFixed(2) + " cm²"
 }
